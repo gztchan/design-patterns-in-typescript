@@ -1,5 +1,6 @@
 interface WorkoutStrategy {
   fire(): void;
+  stop?(): void;
 }
 
 class Running implements WorkoutStrategy {
