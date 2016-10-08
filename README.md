@@ -2,9 +2,9 @@
 
 ## Content
 
-- [Creational patterns](##creational-patterns) 
-- [Structural patterns](##structural-patterns)
-- [Behavioral patterns](##behavioral-patterns) 
+- [Creational patterns](#creational) 
+- [Structural patterns](#structural)
+- [Behavioral patterns](#behavioral) 
 
 ## Creational
 
