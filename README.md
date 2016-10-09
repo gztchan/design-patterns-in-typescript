@@ -24,6 +24,8 @@
 - [ ] Decorator
 - [x] Flyweight
 - [x] Proxy
+- [ ] Private Class Data
+- [ ] Facade
 
 ## Behavioral
 
@@ -34,6 +36,7 @@
 - [ ] Mediator
 - [ ] Memento
 - [ ] Observer
+- [x] State
 - [x] Strategy
 - [ ] Template Method
 - [ ] Visitor
