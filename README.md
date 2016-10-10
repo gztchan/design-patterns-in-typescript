@@ -9,10 +9,9 @@
 ## Creational
 
 - [x] Singleton
-- [ ] Factory
-- [x] Factory Method
+- [x] Factory Method/Factory
 - [ ] Abstract Factory
-- [ ] Builder
+- [x] Builder
 - [x] Prototype
 - [ ] Object Pool
 
