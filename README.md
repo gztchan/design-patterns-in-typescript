@@ -24,7 +24,7 @@
 - [x] Flyweight
 - [x] Proxy
 - [ ] Private Class Data
-- [ ] Facade
+- [x] Facade
 
 ## Behavioral
 
@@ -32,7 +32,7 @@
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator
-- [ ] Mediator
+- [x] Mediator
 - [ ] Memento
 - [x] Observer
 - [x] State
