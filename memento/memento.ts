@@ -19,7 +19,7 @@ interface StateInterface {
   state: State;
 }
 
-class Memeto implements StateInterface {
+class Memento implements StateInterface {
   private _state: State;
 
   constructor(state: State) {
@@ -52,27 +52,27 @@ class Originator implements StateInterface {
     return this._state;
   }
 
-  public createMemeto() {
-    console.log(`create ${this._state.value} memeto`);
-    return new Memeto(this._state);
+  public createMemento() {
+    console.log(`create ${this._state.value} memento`);
+    return new Memento(this._state);
   }
 
-  public restoreMemeto(memeto: Memeto) {
-    console.log(`restore ${memeto.state.value}`);
-    this._state = memeto.state;
+  public restoreMemento(memento: Memento) {
+    console.log(`restore ${memento.state.value}`);
+    this._state = memento.state;
   }
 }
 
 class CareTaker {
-  private _memeto: Memeto;
+  private _memento: Memento;
 
-  public set memeto(memeto: Memeto) {
-    // memeto saved
-    this._memeto = memeto;
+  public set memento(memento: Memento) {
+    // memento saved
+    this._memento = memento;
   }
 
-  public get memeto() {
-    return this._memeto;
+  public get memento() {
+    return this._memento;
   }
 }
 
@@ -81,19 +81,19 @@ class CareTaker {
   const oldState = new State('check point');
   const originator = new Originator(oldState);
   const careTaker = new CareTaker();
-  careTaker.memeto = originator.createMemeto();
+  careTaker.memento = originator.createMemento();
 
   // Player dies
   const currentState = new State('die');
   originator.state = currentState;
 
   // Player reset to check point
-  originator.restoreMemeto(careTaker.memeto);
+  originator.restoreMemento(careTaker.memento);
 
   // Player gain medel
   const medalState = new State('get medal');
   originator.state = medalState;
   // Save
-  careTaker.memeto = originator.createMemeto();
+  careTaker.memento = originator.createMemento();
 
 })();
