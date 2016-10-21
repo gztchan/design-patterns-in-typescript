@@ -28,7 +28,7 @@
 
 ## Behavioral
 
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [x] Command
 - [x] Interpreter
 - [ ] Iterator
