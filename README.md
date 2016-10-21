@@ -20,7 +20,7 @@
 - [x] Adapter
 - [ ] Bridge
 - [ ] Composite
-- [ ] Decorator
+- [x] Decorator
 - [x] Flyweight
 - [x] Proxy
 - [ ] Private Class Data
