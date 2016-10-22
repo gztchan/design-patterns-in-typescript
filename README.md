@@ -5,6 +5,7 @@
 - [Creational patterns](#creational) 
 - [Structural patterns](#structural)
 - [Behavioral patterns](#behavioral) 
+- [Learning resources](#references)
 
 ## Creational
 
@@ -37,3 +38,9 @@
 - [x] Strategy
 - [x] Template Method
 - [x] Visitor
+
+## References
+
+- [OODesign](http://www.oodesign.com/)
+- [Source Making](https://sourcemaking.com/)
+- [Design Patterns Video Tutorial by Derek Banas](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
