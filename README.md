@@ -10,7 +10,7 @@
 
 - [x] Singleton
 - [x] Factory Method/Factory
-- [ ] Abstract Factory
+- [x] Abstract Factory
 - [x] Builder
 - [x] Prototype
 - [ ] Object Pool
