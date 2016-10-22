@@ -2,10 +2,19 @@
 
 ## Content
 
+- [Principles](#principles)
 - [Creational patterns](#creational) 
 - [Structural patterns](#structural)
 - [Behavioral patterns](#behavioral) 
 - [Learning resources](#references)
+
+## Principles
+
+- Open Close Principle
+- Dependency Inversion Principle
+- Interface Segregation Principle
+- Single Responsibility Principle
+- Liskov’s Sustitution Principle
 
 ## Creational
 
