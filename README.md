@@ -13,7 +13,6 @@
 - [x] Abstract Factory
 - [x] Builder
 - [x] Prototype
-- [ ] Object Pool
 
 ## Structural
 
@@ -23,7 +22,6 @@
 - [x] Decorator
 - [x] Flyweight
 - [x] Proxy
-- [ ] Private Class Data
 - [x] Facade
 
 ## Behavioral
@@ -39,4 +37,3 @@
 - [x] Strategy
 - [x] Template Method
 - [x] Visitor
-- [ ] Null Object
