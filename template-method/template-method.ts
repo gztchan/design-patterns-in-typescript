@@ -1,5 +1,5 @@
 class BaseClass {
-  public temlpateMethod(): void {
+  public templateMethod(): void {
     this.actionA();
     this.actionB();
   }
@@ -37,6 +37,6 @@ class ConcreteBClass extends BaseClass {
   const a = new ConcreteAClass();
   const b = new ConcreteBClass();
 
-  a.temlpateMethod();
-  b.temlpateMethod();
+  a.templateMethod();
+  b.templateMethod();
 })();
