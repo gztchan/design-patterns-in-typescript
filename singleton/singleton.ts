@@ -1,12 +1,10 @@
 class Singleton {
   private static instance: Singleton;
 
-  constructor() {};
-
   static get sharedInstance() {
-    if (Singleton.instance) {
-      return Singleton.instance;
+    if (!Singleton.instance) {
+       Singleton.instance = new Singleton();
     }
-    return new Singleton();
+    return Singleton.instance;
   };
 }
